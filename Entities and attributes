@@ -1,0 +1,52 @@
+●User:
+1.Name(user_name):a)first name(first_name)b)last name(last_name)
+2.user address(user_address)
+3.user phone number(user_mobile)
+4.email id(user_email)
+5.id(user_id)user_id is key attribute
+●Login:
+1.login role id(login_role_id)
+2.login id(login_id)
+3.username(login_username)
+4.user password(user_password)login_id and login_username are key attributes
+●Roles:
+1.role id(role_id)
+2.name(role_name)
+3.description(role_desc)role_id is key attribute
+●Permission:
+1.name(per_name)
+2.id(per_id)
+3.module(per_module)
+4.role id(per_role_id)per_id is key attribute
+●Inventory:
+1.number(inv_num)
+2.description(inv_desc)
+3.items(inv_items)
+4.id(inv_id)
+5.type(inv_type)inv_id is key attribute here
+●Stock:
+1.stock id(stk_id)
+2.type(stk_type)
+3.description(stk_desc)stk_id is key attribute
+●Product:
+1.Items(pro_items)
+2.product id(pro_id)
+3.type(pro_type)
+4.customer id(pro_cus_id)
+5.description(pro_desc)
+6.product number(pro_num)pro_id is key attribute
+●Membership:
+1. Purchase id(purchase_id)
+2.Expiry date(expiry_date)
+3.purchase date(purchase_date)
+4.Purchase details(purchase_details)purchase_id is key attribute
+●Delivery:
+1.delivery date(del_date)
+2.customer id(del_cus_id)
+3.delivery id(del_id)
+4.type of delivery(del_type)
+5.description(del_desc)del_id is key attribute
+●Express delivery:
+1.express delivery date(express_del_date)
+2.delivery id(express_del_id)
+3.description(del_desc)express_del_id is key attribute
