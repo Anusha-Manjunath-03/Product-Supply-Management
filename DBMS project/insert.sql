@@ -34,7 +34,6 @@ INSERT into Inventory values(205,23,'cleaning supplies');
 INSERT into Inventory values(207,29,'cosmetics');
 INSERT into Inventory values(210,31,'supplies');
 
-
 INSERT into Product values(1,20,'HP Desktop',11,200);
 INSERT into Product values(3,17,'Lenovo Laptop',7,200);
 INSERT into Product values(5,13,'Harry Potter',8,202);
@@ -68,7 +67,6 @@ INSERT into invtype values(205,'Cleaning supplies');
 INSERT into invtype values(207,'Cosmetics');
 INSERT into invtype values(210,'Oil-supplies');
 
-
 INSERT into invitems values(200,('Desktop','Laptop','Mouse','Mobile phones','Keyboard','Tablets','Earphones'));
 INSERT into invitems values(201,('Chips','Chocolates','Biscuits','Cereals','Drinks'));
 INSERT into invitems values(202,('Fantasy','Journals','Thrillers','Horror','Autobiographies','Romantic novels'));
@@ -87,8 +85,6 @@ INSERT into Stock values(1238,'Lakhme Eyeliner',207);
 INSERT into Stock values(1239,'Eureka Forbes cleaner',205);
 INSERT into Stock values(1244,'Aidea Microfibre Cloth',205);
 INSERT into Stock values(1233,'Mahavir oil',210);
-
-
 
 INSERT into Stocktype values(1234,'electronic device');
 INSERT into Stocktype values(1230,'electronic device');
@@ -117,10 +113,6 @@ INSERT into Delivery values(13,'2021-10-12',236,'cosmetics');
 INSERT into Delivery values(14,'2021-10-22',221,'electronic devices');
 INSERT into Delivery values(15,'2021-10-24',241,'books');
 INSERT into Delivery values(16,'2021-10-25',134,'cleaning supplies');
-
-
-
-
 
 INSERT into Delivery_type values(12,'ss layout,davanagere,karnataka');
 INSERT into Delivery_type values(13,'btm layout,7th main,10th cross,bangalore');
