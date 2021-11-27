@@ -112,9 +112,4 @@ CREATE TABLE Delivery_type
 (	Del_id INT NOT NULL,
 	Del_location VARCHAR(50) NOT NULL,
 	PRIMARY KEY (Del_id, Del_location),
-	FOREIGN KEY (Del_id) REFERENCES Delivery(Del_id)				);
-	
-	
-
-		
-	
+	FOREIGN KEY (Del_id) REFERENCES Delivery(Del_id)				);	
