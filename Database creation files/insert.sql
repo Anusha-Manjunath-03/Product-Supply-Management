@@ -34,7 +34,6 @@ INSERT into Inventory values(205,23,'cleaning supplies');
 INSERT into Inventory values(207,29,'cosmetics');
 INSERT into Inventory values(210,31,'supplies');
 
-
 INSERT into Product values(1,20,'HP Desktop',11,200);
 INSERT into Product values(3,17,'Lenovo Laptop',7,200);
 INSERT into Product values(5,13,'Harry Potter',8,202);
@@ -120,10 +119,3 @@ INSERT into Delivery_type values(13,'btm layout,7th main,10th cross,bangalore');
 INSERT into Delivery_type values(14,'jp nagar 3rd main,6th cross,bangalore');
 INSERT into Delivery_type values(15,'rt nagar,4th main,5th cross,bangalore');
 INSERT into Delivery_type values(16,'ss complex,jail road,shimogga,bangalore');
-
-
-
-
-
-
-
